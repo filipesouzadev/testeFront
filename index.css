@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box; /*isso impede que o padding deixe as divs maiores que elas são, caso a gente usar*/
+  overflow: hidden; /*Isso desabilita o scroll lateral e horizontal*/
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: rgb(84, 84, 224);
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 95vh;
+  width: 98%;
+  background: rgb(150,0,0);
+}
+.second-column{
+  display: flex;
+  background-color: white;
+  width: 45%;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+.first-column{
+  display: flex;
+  background-color: white;
+  width: 55%;
+}
+.cadastro{
+  background: white; 
+  height: 75% ;
+  width: 95%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+
+.input{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.input > input{
+  width: 45%;
+}
+input{
+  height: 45px;
+  border-radius: 25px;
+  border: 1px solid rgb(160,160,160);
+  padding-left: 20px;
+  
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
+input[type = email]{
+  width: 93,5%;
+}
+button{
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+  width: 100%;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+button > a{
+  text-decoration: none;
+}
+
+.btn{
+  background-color: #4D74DD;
+}
+.btn1{
+  background-color: #EA4237;
+ }
+
+ .btn1 a{
+   text-decoration: none;
+   color: #fff;
+ }
+.btn2{
+  background-color: #3A5898; 
+}
+.btn2 a {
+  text-decoration: none;
+  color: #fff;
+}
+.titulo{
+  width: 100%;
+  text-align: center;
+}
